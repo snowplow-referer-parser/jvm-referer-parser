@@ -17,6 +17,7 @@ package com.snowplowanalytics.refererparser
 
 import cats.Eval
 import cats.effect.IO
+import cats.effect.unsafe.implicits.global
 import org.specs2.mutable.Specification
 
 class CorruptedRefererUriTest extends Specification {

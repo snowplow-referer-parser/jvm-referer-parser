@@ -21,6 +21,7 @@ import scala.io.Source._
 
 import cats.Eval
 import cats.effect.IO
+import cats.effect.unsafe.implicits.global
 import io.circe._
 import io.circe.parser._
 import io.circe.generic.semiauto._

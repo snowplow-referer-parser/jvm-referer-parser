@@ -17,8 +17,8 @@ import sbt._
 
 object Dependencies {
   object V {
-    val catsCore         = "2.1.1"
-    val catsEffect       = "2.1.4"
+    val catsCore         = "2.6.0"
+    val catsEffect       = "3.1.0"
     val circe            = "0.13.0"
     val collectionCompat = "2.1.6"
     val specs2           = "4.10.3"
